@@ -12,6 +12,9 @@ app_details = [
 # Set the page layout
 st.set_page_config(layout="wide")
 
+# Set the title at the top
+st.title("Home Screen")
+
 # Sidebar with company logo and name
 st.sidebar.image(company_logo, use_column_width=True)
 st.sidebar.title("SBA INFO SOLUTIONS")
@@ -29,4 +32,4 @@ for col, app in zip(cols, app_details):
 
 # Run the Streamlit app
 if __name__ == "__main__":
-    st.title("Home Screen")
+    pass  # The main block can be left empty or used for additional initializations
