@@ -3,10 +3,10 @@ import streamlit as st
 # Define the company logo and app details
 company_logo = "sba.jpg"  # Replace with the path to your company logo
 app_details = [
-    {"logo": "_8fd6e0cf-fde4-4843-8edd-a64337932233.jpg", "name": "PDF URL ANALYZER", "link": "http://link_to_app1.com"},
-    {"logo": "_55bc0b3f-2019-494c-9978-bbb0129a11d8.jpg", "name": "AUDIO ANALYZER", "link": "http://link_to_app2.com"},
-    {"logo": "_67719771-fafa-467e-b2f8-557b229d48fc.jpg", "name": "MEETING TRANSCRIPTION", "link": "http://link_to_app3.com"},
-    {"logo": "_8590e2f5-3550-4dfd-be77-1606a13e4a34.jpg", "name": "SPEECH TO TEXT", "link": "http://link_to_app4.com"},
+    {"logo": "_8fd6e0cf-fde4-4843-8edd-a64337932233.jpg", "name": "PDF URL ANALYZER", "link": "https://5gyk9cpo8hvmeekfgmrqyu.streamlit.app/"},
+    {"logo": "_55bc0b3f-2019-494c-9978-bbb0129a11d8.jpg", "name": "AUDIO ANALYZER", "link": "https://watsonx-ai-audio-analysis.onrender.com"},
+    {"logo": "_67719771-fafa-467e-b2f8-557b229d48fc.jpg", "name": "MEETING TRANSCRIPTION", "https://meeting-transcription-cncvjdrgt3pd9b7adtucyw.streamlit.app/"},
+    {"logo": "_8590e2f5-3550-4dfd-be77-1606a13e4a34.jpg", "name": "SPEECH TO TEXT", "link": "https://663e0d1381ac3e069fe00384--gilded-dieffenbachia-1bccb4.netlify.app/"},
 ]
 
 # Set the page layout
