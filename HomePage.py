@@ -29,8 +29,8 @@ for col, app in zip(cols * (len(app_details) // len(cols) + 1), app_details):
         st.image(app["logo"], use_column_width=True)
         st.write(f"**{app['name']}**")
         if st.button("Launch", key=app['name']):
-            st.write(f"Redirecting to {app['link']}...")
-            st.markdown(f'<meta http-equiv="refresh" content="0; url={app["link"]}">', unsafe_allow_html=True)
+            js = f"window.open('{app['link']}')"
+            st.components.v1.html(f"<script>{js}</script>", height=0)
 
 # Run the Streamlit app
 if __name__ == "__main__":
