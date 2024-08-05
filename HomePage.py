@@ -14,6 +14,22 @@ app_details = [
 # Set the page layout
 st.set_page_config(layout="wide")
 
+# Inject custom CSS to change the background color
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: black;
+        color: white;
+    }
+    .sidebar .sidebar-content {
+        background-color: grey;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Set the title at the top
 st.title("Home Screen")
 
