@@ -30,7 +30,7 @@ for col, app in zip(cols * (len(app_details) // len(cols) + 1), app_details):
         st.write(f"**{app['name']}**")
         if st.button("Launch", key=app['name']):
             js = f"window.open('{app['link']}')"
-            st.components.v1.html(f"<script>{js}</script>", height=0)
+            st.components.v1.html(f"<script>{js}</script>", height=0, width=0)
 
 # Run the Streamlit app
 if __name__ == "__main__":
