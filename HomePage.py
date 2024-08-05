@@ -24,7 +24,7 @@ st.sidebar.title("SBA INFO SOLUTIONS")
 # Main area with app logos, names, and launch buttons
 cols = st.columns(4)
 
-for col, app in zip(cols, app_details):
+for col, app in zip(cols * (len(app_details) // len(cols) + 1), app_details):
     with col:
         st.image(app["logo"], use_column_width=True)
         st.write(f"**{app['name']}**")
