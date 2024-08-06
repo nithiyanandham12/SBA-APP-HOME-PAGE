@@ -1,9 +1,11 @@
 import streamlit as st
 
+
 # Define the company logo and app details
 company_logo = "sba.jpg"  # Replace with the path to your company logo
 app_details = [
     {"logo": "_8fd6e0cf-fde4-4843-8edd-a64337932233.jpg", "name": "PDF URL ANALYZER", "link": "https://5gyk9cpo8hvmeekfgmrqyu.streamlit.app/"},
+    {"logo": "_e316abec-51da-443f-bde9-ef340c79d369.jpg", "name": "Marketing Email Genrator", "link": "https://watsonx-ai-audio-analysis.onrender.com/"},
     {"logo": "_55bc0b3f-2019-494c-9978-bbb0129a11d8.jpg", "name": "AUDIO ANALYZER", "link": "https://watsonx-ai-audio-analysis.onrender.com/"},
     {"logo": "_a691c73b-69b6-4778-92d8-e399f8333e6b.jpg", "name": "DOCUMENT RAG ASSISTANT", "link": "https://sbainfosolutions.streamlit.app/"},
     {"logo": "_ac2912c1-3aee-4072-be42-7461421dd569.jpg", "name": "SBA SEARCH ENGINE", "link": "https://sbasearch.streamlit.app/"},
